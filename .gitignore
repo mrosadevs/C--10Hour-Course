@@ -1,0 +1,18 @@
+﻿# Compiled binaries
+*.exe
+*.o
+*.obj
+*.dll
+*.lib
+
+# Build folders
+/build/
+/cmake-build-*/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
