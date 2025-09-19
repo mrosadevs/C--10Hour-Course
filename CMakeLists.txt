@@ -10,5 +10,6 @@ foreach(main_file IN LISTS children)
   string(REGEX REPLACE "[^A-Za-z0-9_]" "_" target "${dir}")
   add_executable(${target} "${dir}/main.cpp"
           "Using Variables With COUT/main.cpp"
-          "User Input With CIN/main.cpp")
+          "User Input With CIN/main.cpp"
+          "Conventions and Style Guides/main.cpp")
 endforeach()
