@@ -1,6 +1,7 @@
 #include <iostream>
 
 int main() {
-    int slices = 10;
+    int slices;
+    std::cin >> slices;
     std::cout << "You have " << slices << " slices of pizza." << std::endl;
 }

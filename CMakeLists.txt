@@ -9,5 +9,6 @@ foreach(main_file IN LISTS children)
   get_filename_component(dir "${main_file}" DIRECTORY)
   string(REGEX REPLACE "[^A-Za-z0-9_]" "_" target "${dir}")
   add_executable(${target} "${dir}/main.cpp"
-          "Using Variables With COUT/main.cpp")
+          "Using Variables With COUT/main.cpp"
+          "User Input With CIN/main.cpp")
 endforeach()
