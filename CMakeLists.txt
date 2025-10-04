@@ -13,5 +13,6 @@ foreach(main_file IN LISTS children)
           "User Input With CIN/main.cpp"
           "Conventions and Style Guides/main.cpp"
           Pow-Functions/main.cpp
-          Creating-Custom-Functions/main.cpp)
+          Creating-Custom-Functions/main.cpp
+          Creating-Void-Functions/main.cpp)
 endforeach()
