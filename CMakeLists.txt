@@ -11,5 +11,6 @@ foreach(main_file IN LISTS children)
   add_executable(${target} "${dir}/main.cpp"
           "Using Variables With COUT/main.cpp"
           "User Input With CIN/main.cpp"
-          "Conventions and Style Guides/main.cpp")
+          "Conventions and Style Guides/main.cpp"
+          Pow-Functions/main.cpp)
 endforeach()
