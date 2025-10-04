@@ -12,5 +12,6 @@ foreach(main_file IN LISTS children)
           "Using Variables With COUT/main.cpp"
           "User Input With CIN/main.cpp"
           "Conventions and Style Guides/main.cpp"
-          Pow-Functions/main.cpp)
+          Pow-Functions/main.cpp
+          Creating-Custom-Functions/main.cpp)
 endforeach()
